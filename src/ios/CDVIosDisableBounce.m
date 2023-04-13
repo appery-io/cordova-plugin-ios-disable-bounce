@@ -6,5 +6,7 @@
 - (void)didMoveToWindow {
     [super didMoveToWindow];
     self.bounces = NO;
+    self.alwaysBounceVertical = NO;
+    self.showsVerticalScrollIndicator = NO;
 }
 @end
