@@ -40,7 +40,7 @@
 
         <source-file src="src/ios/CDVIosDisableBounce.m" />
 
-         <asset src="www/style.css" target="cordova-plugin-ios-disable-bounce/disablebouncestyle.css" />
+         <asset src="www/disablebouncestyle.css" target="cordova-plugin-ios-disable-bounce/disablebouncestyle.css" />
          <hook type="after_plugin_add" src="hooks/ios_after_plugin_add.js" />
     </platform>
 </plugin>
